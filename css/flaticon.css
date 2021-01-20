@@ -36,10 +36,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-bolt:before { content: "\f100"; }
-.flaticon-light-bulb:before { content: "\f101"; }
-.flaticon-cyber:before { content: "\f102"; }
-.flaticon-web-programming:before { content: "\f103"; }
-.flaticon-secure:before { content: "\f104"; }
-.flaticon-stats:before { content: "\f105"; }
-.flaticon-presentation:before { content: "\f106"; }
+.flaticon-retirement:before { content: "\f100"; }
+.flaticon-car:before { content: "\f101"; }
+.flaticon-home:before { content: "\f102"; }
+.flaticon-heart:before { content: "\f103"; }
+.flaticon-routine:before { content: "\f104"; }
+.flaticon-enterprise:before { content: "\f105"; }

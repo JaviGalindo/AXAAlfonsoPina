@@ -7,8 +7,8 @@ $white: #fff;
 $black: #000000;
 $darken: #090f35;
 
-$primary: #323edd;
-$secondary: #ffa41b;
+$primary: #02008f;
+$secondary: #c5440b;
 
 
 
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5,
 		padding-top: 1.5rem;
 		padding-bottom: 1.5rem;
 		span{
-			color: $darken;
+			color: $secondary;
 		}
 		&:hover{
 			color: $primary;
@@ -393,6 +393,7 @@ h1, h2, h3, h4, h5,
 		top: 0;
 		left: 0;
 		right: 0;
+		height: 72%;
 		bottom: 0;
 		content: '';
 		opacity: .6;
@@ -477,6 +478,9 @@ h1, h2, h3, h4, h5,
 .ftco-intro{
 	@include media-breakpoint-up(lg){
 		margin-top: -200px;
+	}
+	.container{
+		max-width: 1110px;
 	}
 	.services-1{
 		background: $primary;
@@ -2104,3 +2108,16 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+.c-whats-banner, .c-call-banner{
+background: url(../images/whatsapp-image.png) center center;
+    width: 69px;
+    height: 69px;
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+    right: 30px;
+    bottom: 50px;
+    border-radius: 64px;
+    box-shadow: 0 0 8px #555;
+}
+
