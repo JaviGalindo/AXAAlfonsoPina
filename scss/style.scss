@@ -393,16 +393,16 @@ h1, h2, h3, h4, h5,
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 72%;
+		height: 900px;
 		bottom: 0;
 		content: '';
 		opacity: .6;
 		background: darken($darken,4%);
 	}
 	&.hero-wrap-2{
-		height: 600px;
+		height: 750px;
 		.overlay{
-			height: 600px;
+			height: 750px;
 			width: 100%;
 			background: darken($primary,8%);
 			opacity: .6;
@@ -881,7 +881,7 @@ h1, h2, h3, h4, h5,
 	.myaccordion .btn {
 	  width: 100%;
 	  font-weight: 600;
-	  color: rgba(0,0,0,1);
+	  color: $secondary;
 	  padding: 0;
 	  text-transform: capitalize;
 	  letter-spacing: 0;
@@ -1516,9 +1516,10 @@ textarea.form-control {
 	}
 }
 .testimony-wrap{
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: right;
+	background-color: #f8f9fa;
 	padding: 1em;
 	z-index: 0;
 	position: relative;
